@@ -1,0 +1,75 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    margin-left: 15px;
+}
+
+.links img {
+    width: 30px;
+    height: auto;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.flags {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.flags img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.about, .roadmap {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.roadmap .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.roadmap .timeline-item img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.roadmap .timeline-item span {
+    font-size: 1.1rem;
+}
