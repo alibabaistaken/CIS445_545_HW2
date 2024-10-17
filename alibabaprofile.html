@@ -4,60 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali's Profile</title>
-    <link rel="stylesheet" href="style.css"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <div class="links">
-                <a href="https://github.com/alibabaistaken" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
-                </a>
-                <a href="https://www.linkedin.com/in/alibasalam" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-                </a>
-            </div>
-        </header>
+<div class="container">
+    <div class="cover-photo"></div>
 
-        <div class="profile">
-            <img id="profilePic" class="profile-pic" src="https://media.licdn.com/dms/image/v2/D4D35AQEo0gLA0Pk3VA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1726774049704?e=1729735200&v=beta&t=Z8xe4AVb1rLHKoJpFzgHlel-rIR9U6-UuMw8xbkpcag" alt="Profile Picture">
-            <h1>Ali Basalam</h1>
-            <p>Software Engineer | Space Enthusiast | Student at Bradley University</p>
-        </div>
+    <div class="profile-header text-center">
+        <img id="profilePic" class="profile-pic" src="https://media.licdn.com/dms/image/v2/D4D35AQEo0gLA0Pk3VA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1726774049704?e=1729735200&v=beta&t=Z8xe4AVb1rLHKoJpFzgHlel-rIR9U6-UuMw8xbkpcag" alt="Profile Picture">
+        <h1>Ali Basalam</h1>
+        <p>Software Engineer | Space Enthusiast | Student at Bradley University</p>
+    </div>
 
-        <div class="flags">
+    <div class="flags text-center">
+        <img src="https://cdn-icons-png.flaticon.com/128/11849/11849161.png" alt="Oman Flag">
+        <img src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="India Flag">
+        <img src="https://cdn-icons-png.flaticon.com/128/197/197581.png" alt="Malaysia Flag">
+        <img src="https://cdn-icons-png.flaticon.com/512/197/197484.png" alt="USA Flag">
+    </div>
+
+    <div class="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Ali Basalam, a passionate software engineer born in Oman with Indian heritage. I completed my Associate’s degree in Software Engineering in Malaysia and I’m currently studying at Bradley University in the USA, pursuing my Bachelor’s degree in Computer Information Systems. I am deeply interested in space exploration and enjoy working on new and exciting technologies. I love playing soccer, collecting sneakers, and I am a big car enthusiast. I've traveled to 41 different cities across 23 countries.</p>
+    </div>
+
+    <div class="roadmap">
+        <h2>My Journey</h2>
+        <div class="timeline-item">
             <img src="https://cdn-icons-png.flaticon.com/128/11849/11849161.png" alt="Oman Flag">
+            <span class="timeline-text">Born in Oman</span>
+        </div>
+        <div class="timeline-item">
             <img src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="India Flag">
+            <span class="timeline-text">Indian heritage, where my parents are from</span>
+        </div>
+        <div class="timeline-item">
             <img src="https://cdn-icons-png.flaticon.com/128/197/197581.png" alt="Malaysia Flag">
+            <span class="timeline-text">Earned Associate’s degree in Software Engineering from Asia Pacific University, Malaysia</span>
+        </div>
+        <div class="timeline-item">
             <img src="https://cdn-icons-png.flaticon.com/512/197/197484.png" alt="USA Flag">
-        </div>
-
-        <div class="about">
-            <p>I was born in 2001, love playing soccer, and enjoy collecting sneakers. I’m also a big car enthusiast, with a passion for traveling. I’ve visited 41 cities across 23 countries. Coding excites me, and I love working on different projects and solving problems!</p>
-        </div>
-
-        <div class="roadmap">
-            <div class="timeline-item">
-                <img src="https://cdn-icons-png.flaticon.com/128/11849/11849161.png" alt="Oman Flag">
-                <span>Born in Oman</span>
-            </div>
-            <div class="timeline-item">
-                <img src="https://cdn-icons-png.flaticon.com/512/197/197419.png" alt="India Flag">
-                <span>Indian heritage, where my parents are from</span>
-            </div>
-            <div class="timeline-item">
-                <img src="https://cdn-icons-png.flaticon.com/128/197/197581.png" alt="Malaysia Flag">
-                <span>Earned Associate’s degree in Software Engineering from Asia Pacific University, Malaysia</span>
-            </div>
-            <div class="timeline-item">
-                <img src="https://cdn-icons-png.flaticon.com/512/197/197484.png" alt="USA Flag">
-                <span>Pursuing a Bachelor’s degree in Computer Information Systems at Bradley University, USA</span>
-            </div>
+            <span class="timeline-text">Pursuing a Bachelor’s degree in Computer Information Systems at Bradley University, USA</span>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="resume-link text-center">
+        <a href="Ali-Basalam-Software-Developer-3.pdf" class="btn btn-primary" download>Download My Resume</a>
+    </div>
+
+    <div class="links text-center">
+        <a href="https://github.com/alibabaistaken" class="btn btn-secondary">GitHub</a>
+        <a href="https://www.linkedin.com/in/alibasalam" class="btn btn-info">LinkedIn</a>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
